@@ -1,0 +1,61 @@
+footer{
+  background-color: #232323;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  h4{
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+
+  .newsletter{
+    width: 300px;
+    p{
+      line-height: 1.5;
+    }
+    input{
+      margin-top: 40px;
+      height: 37px;
+      font-family: "CircularStd";
+      src: url("../../assets/font/CircularStd-Book.ttf");
+      font-weight: 450;
+      padding: 10px 30px;
+
+      &:focus{
+        outline: none;
+      }
+
+    }
+  }
+
+  .quick-links{
+    ul{
+      list-style: none;
+      a{
+        text-decoration: none;
+        color: white;
+        margin-top: 30px;
+      }
+    }
+  }
+
+  .industry-solution{
+    ul{
+      list-style: none;
+      li{
+        margin-top: 10px;
+      }
+    }
+    margin-bottom: 100px;
+  }
+
+  .contact-us{
+    span{
+      color: var(--yellow);
+    }
+    p{
+      line-height: 1.5;
+    }
+  }
+}

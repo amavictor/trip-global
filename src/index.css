@@ -1,8 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scrollbar-color: transparent;
+  scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 3px;
+  height: 50px;
+}
+
+p{
+  font-family: "CircularStd", sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+  border-bottom-right-radius: 16px;
 }
 body {
   margin: 0;
@@ -11,6 +33,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(248, 248, 248);
 }
 
 code {
@@ -18,20 +41,114 @@ code {
     monospace;
 }
 
+:root{
+  --yellow:#FFDE00;
 
-
-h1{
-  font-family: 'Merriweather Sans', sans-serif;
-  font-weight: 700;
-  line-height: 2;
 }
-h2{
-  font-family: 'Merriweather Sans', sans-serif;
+
+
+@font-face {
+  font-family: "CircularStd";
+  src: url("./assets/font/CircularStd-Book.ttf");
+}
+
+@font-face {
+  font-family: "CircularStd";
+  src: url("./assets/font/CircularStd-Book.ttf");
+  font-weight: 450;
+}
+
+@font-face {
+  font-family: "CircularStd";
+  src: url("./assets/font/circularStd-medium-500.ttf");
   font-weight: 500;
-  line-height: 2;
 }
-p{
-  font-family: 'Merriweather Sans', sans-serif;
-  font-weight: 400;
+
+@font-face {
+  font-family: "CircularStd";
+  src: url("./assets/font/CircularStd-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "CircularStd";
+  src: url("./assets/font/CircularStd-Black.ttf");
+  font-weight: 900;
+}
+
+html {
+  font-size: 1em;
+  font-family: "CircularStd", sans-serif;
+  margin: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+  font-weight: bold;
+  font-family: "CircularStd";
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+h3 {
+  font-size: 40px;
+  width: 100%;
   line-height: 1.5;
+}
+
+h4 {
+  font-size: 1.18rem;
+  line-height: 1.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+h6 {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+p {
+  font-style: normal;
+  font-weight: 450;
+}
+
+.nav-shade{
+  background:linear-gradient(to left, rgba(0,0,0,0.3) 2%, rgba(0,0,0,0.85));
+}
+
+label {
+  margin: 0 !important;
+}
+.padding{
+  padding: 0 10%;
+}
+.margin{
+  margin: 0 10%;
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }

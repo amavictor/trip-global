@@ -1,0 +1,118 @@
+header{
+  .parallax{
+    background-image: url("../../assets/backgroundImages/img3.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+
+
+
+  .shade{
+    height: 100vh;
+    background:linear-gradient(to left, rgba(0,0,0,0.3) 2%, rgba(0,0,0,0.85));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .text{
+      text-align: center;
+      margin-top: -150px;
+      background: rgba(255, 255, 255, 0.09);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(4.2px);
+      -webkit-backdrop-filter: blur(4.2px);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      padding: 30px 50px;
+      h3,p{
+        color: white;
+        line-height: 1.5;
+      }
+      p{
+        width:100%;
+        font-size: 18px;
+
+      }
+      h3{
+        margin-bottom: 30px;
+      }
+
+
+      .list-div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap:100px;
+        ul{
+          list-style: none;
+          li{
+            text-decoration: none;
+            margin-bottom: 40px;
+          }
+        }
+      }
+    }
+
+  }
+
+
+
+
+
+  .topic{
+    width: 100%;
+    height: 50vh;
+    background-color: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    h3{
+      font-size: 50px;
+    }
+  }
+
+  .parallax2{
+    background-image: url("../../assets/img9.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .parallax3{
+    background-image: url("../../assets/backgroundImages/img5.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax4{
+    background-image: url("../../assets/packages/luke-minnaar-xwbCZN4S9oA-unsplash.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
