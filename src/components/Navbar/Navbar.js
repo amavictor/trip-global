@@ -1,6 +1,5 @@
 import "./Navbar.scss"
 import {NavLink} from "react-router-dom";
-import Button from "../button/button";
 import {useEffect} from "react";
 import AOS from "aos";
 import Logo from "../../assets/logo.png"
@@ -18,7 +17,9 @@ export default function Navbar () {
                     data-aos="fade-down"
                     data-aos-anchor-placement="center-bottom"
                     data-aos-duration={"500"}
-                    src={Logo}/>
+                    src={Logo}
+                    alt={Logo}
+                />
                 <ul
                     data-aos="fade-down"
                     data-aos-anchor-placement="center-bottom"

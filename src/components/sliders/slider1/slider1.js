@@ -5,7 +5,6 @@ import "./slider1.scss"
 
 import React, { Component } from "react";
 import Slider from "react-slick";
-import Package1 from "../../../assets/packages/rosebox-BFdSCxmqvYc-unsplash.jpg"
 import Package2 from "../../../assets/packages/handy-wicaksono-brizG9kR6qI-unsplash.jpg"
 import Package3 from "../../../assets/packages/kazem-hussein-Kq1ERpkH0eQ-unsplash.jpg"
 import Package4 from "../../../assets/packages/luke-minnaar-xwbCZN4S9oA-unsplash.jpg"
@@ -29,13 +28,13 @@ export default class AutoPlay extends Component {
             <div className={"sliders"}>
                 <Slider {...settings}>
                     <div>
-                        <img src={Package2}/>
+                        <img src={Package2} alt={"package"}/>
                     </div>
                     <div>
-                        <img src={Package3}/>
+                        <img src={Package3} alt={"package"}/>
                     </div>
                     <div>
-                        <img src={Package4}/>
+                        <img src={Package4} alt={"package"}/>
                     </div>
                 </Slider>
             </div>

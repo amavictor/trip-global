@@ -71,7 +71,9 @@ export default function Home () {
                                  data-aos-duration={"500"}
                             >
                                 <div className={"img-card"}>
-                                    <img src={Plane}/>
+                                    <img src={Plane}
+                                        alt={"Plane"}
+                                    />
                                 </div>
 
                                 <h4>International Air Freight</h4>
@@ -88,7 +90,9 @@ export default function Home () {
                             >
 
                                 <div className={"img-card"}>
-                                    <img src={Warehouse}/>
+                                    <img src={Warehouse}
+                                        alt={"warehouse"}
+                                    />
                               </div>
 
                                 <h4>International Air Freight</h4>
@@ -106,7 +110,9 @@ export default function Home () {
                             >
 
                                 <div className={"img-card"}>
-                                    <img src={Truck}/>
+                                    <img src={Truck}
+                                        alt={"truck"}
+                                    />
                                 </div>
 
                                 <h4>International Air Freight</h4>
@@ -186,8 +192,8 @@ export default function Home () {
 
 
                         <div className={"img-container"}>
-                            <img src={Img8}/>
-                            <img src={Img9}/>
+                            <img src={Img8} alt={"Image"}/>
+                            <img src={Img9} alt={"Image"}/>
                         </div>
                     </div>
 
