@@ -294,7 +294,9 @@ export default function Home () {
                                     <div className="map_canvas">
                                         <iframe width="400" height="280" id="gmap_canvas"
                                                 src="https://maps.google.com/maps?q=55,%20Odudwa%20Cresent,%20Ikeja%20Lagos%20Nigeria&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                                                frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0">
+                                                frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"
+                                                title={"map1"}
+                                        >
                                         </iframe>
                                     </div>
                                 </div>
@@ -308,7 +310,9 @@ export default function Home () {
                                         <iframe width="391" height="330" id="gmap_canvas"
                                                 src="https://maps.google.com/maps?q=4%20Albert%20Street,%20Eastern%20Cape,%20Republic%20of%20South%20Africa&t=&z=7&ie=UTF8&iwloc=&output=embed"
                                                 frameBorder="0" scrolling="no" marginHeight="0"
-                                                marginWidth="0">
+                                                marginWidth="0"
+                                                title={"map2"}
+                                        >
 
                                         </iframe>
 
