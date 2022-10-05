@@ -33,13 +33,13 @@ export default function About(){
                      data-aos-duration={"1500"}
                 >
                     <h3>Company profile</h3>
-                    <p>Established in 2012, Achievers Logistics is one of the fastest growing Clearing and
-                        forwarding company in Ghana. Our hallmark has being agile and responsive to our client needs.
+                    <p>Established in 2012, Trip Global Investment Ltd is one of the fastest growing Clearing and
+                        forwarding company in Nigeria and South Africa. Our hallmark has being agile and responsive to our client needs.
                         This culture has served us well and has become the cornerstone of our service strategy.
                         Achievers logistics develops comprehensive freight forwarding, project logistics and relocation
                         service plans tailored to meet specific requirements of customers. This is accomplished by learning
                         customers' exact objectives with regards to their internal and external requirements, thus ensuring
-                        that Achievers logistics will provide quality services more consistently <br/> than any other service
+                        that Trip Global will provide quality services more consistently <br/> than any other service
                         provider in the market.</p>
                 </div>
 
@@ -79,11 +79,11 @@ export default function About(){
                             data-aos-anchor-placement="center-bottom"
                             data-aos-duration={"1500"}
                             data-aos-delay={"500"}
-                        >Since establishment in 2012, Achievers logistics has been recognized as one of the most
+                        >Since establishment in 2012, Trip Global Investment has been recognized as one of the most
                             successful independent freight forwarding, removal and relocation and project logistics
-                            companies in Ghana. In the Ghanaian transport and logistics market, Achievers logistics ranks
-                            among the “top three”. With officers in all the customs entries points in Ghana, and with a
-                            vision to established officers in all our neighboring countries, Achievers logistics planned
+                            companies in Nigeria and South Africa. In the Ghanaian transport and logistics market, Trip Global ranks
+                            among the “top”. With officers in all the customs entries points in Nigeria and South Africa, and with a
+                            vision to established officers in all our neighboring countries, Trip Global planned
                             to be rank as one of the largest and (in terms of number of offices, employees and wide-ranging
                             service portfolio) – most reliable companies in the Ghanaian and west African market.
                         </p>

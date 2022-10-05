@@ -273,7 +273,7 @@ export default function Home () {
                             <h3>Why chose us?...Where to find us?</h3>
                             <p>
                                 Successful freight forwarding, relocation and project logistics management services in
-                                challenging markets like Ghana and Africa require expertise, inside knowledge, and reputation
+                                challenging markets like Nigeria and Africa require expertise, inside knowledge, and reputation
                                 businesses can trust. This is why Achievers Logistics is the preferred choice of many companies
                                 in the region. Our in-depth knowledge of all the customs entries points in Nigeria and South Africa,
                                 coupled with our regional and international service network makes Trip Global investment LTD a leading
