@@ -192,8 +192,8 @@ export default function Home () {
 
 
                         <div className={"img-container"}>
-                            <img src={Img8} alt={"Image"}/>
-                            <img src={Img9} alt={"Image"}/>
+                            <img src={Img8} alt={"Image8"}/>
+                            <img src={Img9} alt={"Image9"}/>
                         </div>
                     </div>
 
