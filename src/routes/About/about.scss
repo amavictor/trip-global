@@ -1,0 +1,81 @@
+header{
+  .about-head{
+    background-image: url("../../assets/backgroundImages/img5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    .shade{
+      height: 90vh;
+      background:linear-gradient(to left, rgba(0,0,0,0.3) 2%, rgba(0,0,0,0.85));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      h2{
+        color: white;
+        font-size: 90px;
+      }
+    }
+
+  }
+}
+
+.first{
+  text-align: center;
+  padding-top: 150px;
+  background-color: #232323;
+  color: white;
+
+
+  .profile{
+    h3{
+      color: var(--yellow);
+      margin-bottom: 30px;
+    }
+    p{
+      line-height: 1.5;
+      text-align: center;
+
+      margin: 0 auto;
+    }
+  }
+
+  .mission-vision{
+    background-color: var(--yellow);
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    color: #232323;
+    height: 50vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    p{
+      line-height: 1.5;
+      text-align: center;
+    }
+  }
+  .market-position{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p{
+      line-height: 1.5;
+      text-align: center;
+    }
+    hr{
+      margin: 50px auto 0 auto;
+      border-top: 2px solid var(--yellow) !important;
+      border-bottom: none;
+      border-left: none;
+      border-right: none;
+      width: 80%;
+    }
+  }
+}

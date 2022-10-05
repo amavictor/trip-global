@@ -81,6 +81,9 @@ html {
   font-family: "CircularStd", sans-serif;
   margin: 0;
 }
+nav a.active{
+  color: var(--yellow);
+}
 
 
 h1,
@@ -90,7 +93,8 @@ h4,
 h5,
 h6,
 a,
-p {
+p,
+textarea{
   font-weight: bold;
   font-family: "CircularStd";
   margin: 0;
@@ -130,6 +134,7 @@ h6 {
 p {
   font-style: normal;
   font-weight: 450;
+  line-height: 1.5;
 }
 
 .nav-shade{

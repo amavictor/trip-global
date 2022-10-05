@@ -1,5 +1,6 @@
 header{
   height: 100vh;
+  width: 100% !important;
 
   .load{
     animation: slide 2s;
@@ -398,11 +399,21 @@ main{
     }
 
     .fifth{
+      height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
+
+
+      .map-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
       p{
-        width:50%;
+        width:100%;
         text-justify: inter-word;
         text-align: justify;
         line-height:1.5;
@@ -421,5 +432,17 @@ main{
 
   }
 
+  .map{
+    position:relative;
+    text-align:right;
+
+    .map_canvas{
+      overflow:hidden;
+      background:none!important;
+      height:372px;
+      width:466px;
+    }
+
+  }
 
 }
