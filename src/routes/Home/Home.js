@@ -8,14 +8,22 @@ import Img8 from "../../assets/img8.jpg"
 import Img9 from "../../assets/img9.jpg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import "./HomemediaQuery.scss"
 
 
 import AutoPlay from "../../components/sliders/slider1/slider1";
 import Footer from "../../components/footer/footer";
-import {useEffect} from "react";
+import {useContext, useEffect, useRef} from "react";
+import {NavContext} from "../../context/navContext";
+
+
 
 export default function Home () {
+    const title= useRef()
+    const [navSate] = useContext(NavContext)
+
     useEffect(()=>{
+        console.log(navSate)
         AOS.init()
     },[])
     return(
@@ -26,8 +34,8 @@ export default function Home () {
                         <Navbar className={"nav-shade"}/>
                         <div className={"load"}>
                         </div>
-                        <div className={"content"}>
-                            <div className={"principal"}>
+                        <div className={ navSate ? "hide" : "content"}>
+                            <div className={"principal"} ref={title}>
                                 <h1
                                     data-aos="fade-up"
                                     data-aos-anchor-placement="center-bottom"
@@ -159,7 +167,7 @@ export default function Home () {
                          data-aos-duration={"1500"}
                          data-aos-easing={"linear"}
                     >
-                        <div>
+                        <div className={"third-text"}>
                             <h3>Between the point of departure and destination there is Trip Global</h3>
                             <h5>Trip Global transport & logistics keeps your business in motion and your cargo on track</h5>
                             <p>
@@ -171,18 +179,18 @@ export default function Home () {
 
                             <hr/>
                             <div className={"details"}>
-                                <div>
+                                <div className={"det"}>
                                     <h4>100% Safe Delivery</h4>
                                     <p>All packages are 100% safe and secure. You an trust us to keep
                                         your parcels intact
                                     </p>
                                 </div>
-                                <div>
+                                <div className={"det"}>
                                     <h4>Weather Insurance</h4>
                                     <p>Whatever the weather is like, we got you covered. If it gets wet,
                                         we'll get you a new one.</p>
                                 </div>
-                                <div>
+                                <div className={"det"}>
                                     <h4>Fast and on time</h4>
                                     <p>We deliver on or before the deadline. We hate to keep our customers waiting.
                                         Its bad for business.</p>
@@ -269,6 +277,7 @@ export default function Home () {
                             data-aos="fade-up"
                             data-aos-anchor-placement="center-bottom"
                             data-aos-duration={"1500"}
+                            className={"fifth-text"}
                         >
                             <h3>Why chose us?...Where to find us?</h3>
                             <p>
@@ -285,7 +294,7 @@ export default function Home () {
 
                         </div>
 
-                        <div>
+                        <div className={"maps"}>
                                 <div className="map map1"
                                      data-aos="fade-up"
                                      data-aos-anchor-placement="center-bottom"

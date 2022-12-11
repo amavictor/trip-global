@@ -7,7 +7,7 @@ export default function Services (){
         <>
             <section>
                 <header>
-                    <div className={"parallax"}>
+                    <div className={"parallax para"}>
                         <Navbar className={"nav-shade"}/>
                         <div className={"shade padding"}>
                             <div className={"text"}
@@ -24,11 +24,11 @@ export default function Services (){
                                     data-aos-anchor-placement="center-bottom"
                                     data-aos-duration={"1500"}
                                     data-aos-delay={"500"}
-                                >Achievers logistics provides “one-stop-solution” to meet all of your logistics requirements.
+                                >Trip Global Investment Ltd provides “one-stop-solution” to meet all of your logistics requirements.
                                     Whether you are looking to relocate household goods across the region,
                                     clearing and forwarding, move an offshore drilling platform across the seal etc.
-                                    Achievers logistics has the level of service, expertise and experience to make it happen.
-                                    You will get personalized service at every level with Achievers logistics because we are
+                                    Trip Global has the level of service, expertise and experience to make it happen.
+                                    You will get personalized service at every level with Trip Global because we are
                                     truly independent, make our own decisions and specialize in our home market.
                                 </p>
                             </div>
@@ -38,7 +38,7 @@ export default function Services (){
                     <div className={"topic"}>
                         <h3>Clearing and Freight forwarding</h3>
                     </div>
-                    <div className={"parallax2"}>
+                    <div className={"parallax2 para"}>
                         <div className={"shade padding"}>
                             <div className={"text"}
                                  data-aos="zoom-in-up"
@@ -48,7 +48,7 @@ export default function Services (){
                                     <ul
                                         data-aos="fade-up"
                                         data-aos-anchor-placement="center-bottom"
-                                        data-aos-duration={"1500"}
+                                        data-aos-duration={"800"}
                                         data-aos-delay={"500"}
                                     >
                                         <li><p>Air Freight</p></li>
@@ -58,7 +58,7 @@ export default function Services (){
                                     <ul
                                         data-aos="fade-up"
                                         data-aos-anchor-placement="center-bottom"
-                                        data-aos-duration={"1500"}
+                                        data-aos-duration={"800"}
                                         data-aos-delay={"600"}
                                     >
                                         <li><p>Road Transport</p></li>
@@ -68,7 +68,7 @@ export default function Services (){
                                     <ul
                                         data-aos="fade-up"
                                         data-aos-anchor-placement="center-bottom"
-                                        data-aos-duration={"1500"}
+                                        data-aos-duration={"800"}
                                         data-aos-delay={"700"}
                                     >
                                         <li><p>LCL/LTL Services</p></li>
@@ -78,7 +78,7 @@ export default function Services (){
                                     <ul
                                         data-aos="fade-up"
                                         data-aos-anchor-placement="center-bottom"
-                                        data-aos-duration={"1500"}
+                                        data-aos-duration={"800"}
                                         data-aos-delay={"800"}
                                     >
                                         <li><p>Dangerous Goods Management</p></li>
@@ -94,7 +94,7 @@ export default function Services (){
                     <div className={"topic"}>
                         <h3>Project Logistics</h3>
                     </div>
-                    <div className={"parallax3"}>
+                    <div className={"parallax3 para"}>
                         <div className={"shade padding"}>
                             <div className={"text"}
                                  data-aos="zoom-in-up"
@@ -104,7 +104,7 @@ export default function Services (){
                                     <ul
                                         data-aos="fade-up"
                                         data-aos-anchor-placement="center-bottom"
-                                        data-aos-duration={"1500"}
+                                        data-aos-duration={"800"}
                                         data-aos-delay={"500"}
                                     >
                                         <li><p>Heavy-Lifts</p></li>
@@ -114,7 +114,7 @@ export default function Services (){
                                     <ul
                                         data-aos="fade-up"
                                         data-aos-anchor-placement="center-bottom"
-                                        data-aos-duration={"1500"}
+                                        data-aos-duration={"800"}
                                         data-aos-delay={"600"}
                                     >
                                         <li><p>Sea/River Barges</p></li>
@@ -129,7 +129,7 @@ export default function Services (){
                     <div className={"topic"}>
                         <h3>Removal and relocation</h3>
                     </div>
-                    <div className={"parallax4"}>
+                    <div className={"parallax4 para"}>
                         <div className={"shade padding"}>
                             <div className={"text"}
                                  data-aos="zoom-in-up"
@@ -139,7 +139,7 @@ export default function Services (){
                                     <ul
                                         data-aos="fade-up"
                                         data-aos-anchor-placement="center-bottom"
-                                        data-aos-duration={"1500"}
+                                        data-aos-duration={"800"}
                                         data-aos-delay={"500"}
                                     >
                                         <li><p>International Removal Services</p></li>
@@ -149,7 +149,7 @@ export default function Services (){
                                     <ul
                                         data-aos="fade-up"
                                         data-aos-anchor-placement="center-bottom"
-                                        data-aos-duration={"1500"}
+                                        data-aos-duration={"800"}
                                         data-aos-delay={"600"}
                                     >
                                         <li><p>Office Moving</p></li>
@@ -158,7 +158,7 @@ export default function Services (){
                                     <ul
                                         data-aos="fade-up"
                                         data-aos-anchor-placement="center-bottom"
-                                        data-aos-duration={"1500"}
+                                        data-aos-duration={"800"}
                                         data-aos-delay={"700"}
                                     >
                                         <li><p>Pet Transportation</p></li>

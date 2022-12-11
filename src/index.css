@@ -157,3 +157,17 @@ label {
   justify-content: center;
   position: relative;
 }
+
+.hide{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  p{
+    font-size: 14px;
+  }
+  h3{
+    font-size: 30px;
+  }
+
+}

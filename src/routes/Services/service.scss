@@ -1,16 +1,16 @@
 
+.para{
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
   .parallax{
     background-image: url("../../assets/backgroundImages/img3.jpg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 
   }
-
-
-
 
   .shade{
     height: 100vh;
@@ -61,10 +61,6 @@
 
   }
 
-
-
-
-
   .topic{
     width: 100%;
     height: 50vh;
@@ -80,38 +76,21 @@
 
   .parallax2{
     background-image: url("../../assets/img9.jpg");
-    /* Set a specific height */
-    min-height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
 
   .parallax3{
     background-image: url("../../assets/backgroundImages/img5.jpg");
-    /* Set a specific height */
-    min-height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   .parallax4{
     background-image: url("../../assets/packages/luke-minnaar-xwbCZN4S9oA-unsplash.jpg");
-    /* Set a specific height */
-    min-height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
+  @media only screen and (max-width: 600px) {
+
+    .parallax{
+
+    }
+
+  }
