@@ -81,8 +81,15 @@ html {
   font-family: "CircularStd", sans-serif;
   margin: 0;
 }
-nav a.active{
+
+a{
+  text-decoration: none;
+}
+a.active{
   color: var(--yellow);
+}
+a{
+  color: white;
 }
 
 
